@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RajverVEER Tutorials</title>
+
+    <style>
+        /* General Reset and Base Styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+        /* --- Header/Navigation Bar Styles --- */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #007BFF; /* Primary Blue for header */
+            padding: 10px 20px;
+            color: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo a {
+            font-size: 1.5em;
+            font-weight: bold;
+            text-decoration: none;
+            color: white;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+        }
+
+        .nav-links li {
+            margin-left: 25px;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 0;
+            transition: color 0.3s;
+        }
+        
+        .nav-links a:hover {
+            color: #FFC107; /* Yellow hover effect */
+        }
+
+        .hamburger {
+            display: none; /* Hidden by default on PC */
+            cursor: pointer;
+            flex-direction: column;
+            justify-content: space-around;
+            width: 30px;
+            height: 25px;
+            z-index: 1001; /* Keep it above the menu */
+        }
+
+        .hamburger .bar {
+            width: 100%;
+            height: 3px;
+            background-color: white;
+            transition: all 0.3s ease-in-out;
+        }
+        
+        /* --- Main Content Placeholder --- */
+        .main-content {
+            padding: 50px 20px;
+            min-height: 80vh; /* Ensures footer is at the bottom */
+            text-align: center;
+        }
+
+        /* --- Footer Styles --- */
+        .footer {
+            background-color: #343A40; /* Darker background for footer */
+            color: #ADB5BD; /* Light gray text */
+            padding: 20px 20px;
+            text-align: center;
+            font-size: 0.9em;
+            border-top: 5px solid #007BFF; /* Blue separator line */
+        }
+
+        .footer a {
+            color: #FFC107; /* Highlight email link in yellow */
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        
+        .footer p:first-child {
+            margin-bottom: 5px;
+        }
+
+        /* --- Media Query for Mobile (Screen width up to 768px) --- */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none; /* Hide PC navigation */
+                flex-direction: column;
+                position: absolute;
+                top: 50px; /* Adjust based on navbar height */
+                left: 0;
+                width: 100%;
+                background-color: #007BFF;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                z-index: 1000;
+            }
+
+            .nav-links li {
+                text-align: center;
+                margin: 0;
+            }
+            
+            .nav-links a {
+                display: block; /* Make links full-width clickable */
+                padding: 15px 20px;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            }
+
+            .nav-links.active {
+                display: flex; /* Show menu when 'active' class is added by JS */
+            }
+
+            .hamburger {
+                display: flex; /* Show hamburger icon */
+            }
+        }
+        .em{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+
+    
+
+    <main class="main-content">
+        <h1>Welcome to Raj Veer Tutorials!</h1>
+      
+    </main>
+    <p class="em"> For any query <b>Email</b> me On The Given Email.</p>
+
+    <footer class="footer">
+        <p>Email: <a href="mailto:rajveerptp@gmail.com">rajveer@example.com</a></p>
+        
+        <p>&copy; 2025 All Rights Reserved - Rajveer</p>
+    </footer>
+
+    
+
+</body>
+</html>

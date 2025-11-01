@@ -1,0 +1,164 @@
+*{
+    background-color: #0f0f0f;
+color: white;
+}
+
+.Nbar{
+    
+display: flex;
+  background-color: white;
+ 
+    list-style: none;
+    padding: 0;
+}
+.Nbar li{
+   font-weight: 700;
+    background-color: white;
+    color: black;
+    display: flex;
+    margin:2vh  8vh 0 8vh;
+}
+@media  (max-width: 600px) {
+  .Nbar li{
+  height: 10vh;
+ width: 8vh;
+ margin: 2vh 0 0 2vh ;
+  }
+}
+
+.img{
+
+  
+    height: 18vh;
+ width: 19vh;
+    background-color: transparent;
+
+}
+@media  (max-width: 600px) {
+  .img{
+     position: absolute;
+    right: 25vh;  }
+  
+}
+.nav{
+    box-shadow: 7px 7px 3px  rgb(85, 102, 177);
+    display: flex;
+    justify-content: right ;
+    background-color: white;
+    width: 79vw;
+    height:15vh;
+    border-radius: 3vh;
+    margin-left: 25vh;
+    margin-top: 5vh;
+    
+}
+@media  (max-width: 600px) {
+  .nav{
+  height: 10vh;
+ width: 79vw;
+  }
+}
+@media  (max-width: 600px) {
+  .ght{
+font-size: 4vh;
+font-weight: 600;
+  }
+}
+@media  (max-width: 600px) {
+  .tu{
+font-size: 8vh;
+font-weight: 900;
+  }
+}
+.ght{
+    
+    display: flex;
+    justify-content: center;
+    color: rgb(45, 251, 76);
+}
+.h1{
+    
+    letter-spacing: .3cap;
+    font-size: 5vh;
+    display: flex;
+    justify-content: center;
+}
+
+.tu{
+     background: linear-gradient(90deg, #ff0000, #ff9900, #00ccff, #6600ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+ .card {
+      display: flex;
+      align-items: center;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 10px 12px rgba(255, 252, 252, 0.1);
+      padding: 20px;
+      max-width: 750px;
+      width: 100%;
+      transform: translateX(-100%);
+      animation: slideIn 1s ease forwards;
+      margin-top: 3vh;
+      margin-left: 3vw;
+    }
+
+    .card img {
+      width: 90px;
+      height: 90px;
+      
+      margin-right: 20px;
+      background:white;
+    }
+
+    .card-content {
+        background-color: white;
+      flex: 1;
+    }
+
+   
+
+    .card-content p {
+        font-weight: 600;
+        background: white;
+      margin: 5px 0;
+      color: #000000;
+    }
+
+
+    
+
+    @keyframes slideIn {
+      to {
+        transform: translateX(0);
+      }
+    }
+    .ilg img{
+      height: 6vh;
+      width: 6vh;
+    }
+    h2{
+      display: flex;
+      justify-content: center;
+      margin-left: 3vh;
+      font-size: 7vh;
+    }
+    h3{
+  
+      font-size: 5vh;
+      color: rgb(233, 175, 50);
+    }
+    h5{
+      color: greenyellow;
+    }
+    .ctn{
+      display: flex;
+      justify-content: center;
+      font-weight: 600;
+      font-style: oblique;
+    }
+    .nli{
+      background-color: white;
+      text-decoration: none;
+    }
