@@ -1,6 +1,7 @@
 *{
     background-color: #0f0f0f;
 color: white;
+    font-family: cursive;
 }
 
 .Nbar{
@@ -161,4 +162,5 @@ font-weight: 900;
     .nli{
       background-color: white;
       text-decoration: none;
+
     }
